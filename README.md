@@ -27,8 +27,11 @@ This is a standalone addon with no addon dependencies.
 Common client folders are `_retail_`, `_classic_`, `_classic_era_`, and
 `_classic_beta_`. Use the `Interface/AddOns` directory inside the client you play.
 
-The manifest includes Retail, Forever, Classic Era, Burning Crusade Classic,
-and Mists Classic interface versions. In-game testing so far is limited to Forever.
+This addon is compatible with **WoW Forever** (interface version `16001`).
+In-game testing so far is limited to WoW Forever.
+
+The manifest also includes Retail, Classic Era, Burning Crusade Classic, and
+Mists Classic interface versions. Those clients have not been verified in-game.
 If a client marks the addon as out of date,
 check its interface version with `/dump select(4, GetBuildInfo())` and update
 `Poople.toc` accordingly.
