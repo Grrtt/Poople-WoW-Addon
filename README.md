@@ -1,16 +1,20 @@
-# Poople for WoW
+# Poople WoW Addon
 
 Play a four-letter word ladder inside World of Warcraft. Change exactly one
 letter per move, use a word from the bundled dictionary, and reach `POOP` in as
 few moves as you can. For example, `COOL → COOP → POOP` is a valid two-move route.
 
+This is an **unofficial WoW addon** inspired by [Poople](https://poople.io/).
+It is not associated with, affiliated with, endorsed by, or maintained by the
+creators of Poople.
+
 This is a standalone addon with no addon dependencies.
 
-[Download the latest release](https://github.com/Grrtt/Poople/releases/latest).
+[Download the latest release](https://github.com/Grrtt/Poople-WoW-Addon/releases/latest).
 
 ## Install
 
-1. Open the [latest release](https://github.com/Grrtt/Poople/releases/latest) and
+1. Open the [latest release](https://github.com/Grrtt/Poople-WoW-Addon/releases/latest) and
    download **Poople-0.2.0.zip** from **Assets**. Use the addon ZIP rather than
    GitHub's **Source code** archives.
 2. Extract the ZIP into your WoW client's
@@ -93,8 +97,8 @@ full dictionary.
 Clone the repository into your development directory:
 
 ```sh
-git clone https://github.com/Grrtt/Poople.git
-cd Poople
+git clone https://github.com/Grrtt/Poople-WoW-Addon.git
+cd Poople-WoW-Addon
 ```
 
 You can copy this folder directly into `Interface/AddOns/Poople`. After editing
